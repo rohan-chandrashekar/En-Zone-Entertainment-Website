@@ -42,7 +42,7 @@ To set up and run En-Zone on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/En-Zone.git
+   git clone https://github.com/rohan-chandrashekar/En-Zone.git
    ```
 2. **Navigate to the project directory:**
    ```bash
@@ -71,26 +71,6 @@ To set up and run En-Zone on your local machine:
 - **Music Library**: Browse songs, create playlists, and enjoy unlimited playback with an intuitive interface.
 - **Comic Book Reader**: Select a comic from the library and read it page by page. Perfect for readers who enjoy serialized content.
 - **Manga Movie Database**: Search for detailed information about your favorite manga movies. Track ratings and reviews from other users.
-
----
-
-## 🤝 **Contributing**
-We welcome contributions from the community! Here’s how you can help:
-
-1. Fork the project.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add AmazingFeature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a pull request and explain your modifications.
 
 ---
 
