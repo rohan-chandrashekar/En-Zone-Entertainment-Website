@@ -15,8 +15,7 @@ function PlayerControls(props) {
                 <FontAwesomeIcon icon={faForward}></FontAwesomeIcon>
             </button>
         </div>
-
     )
 }
 
-export default PlayerControls;
+export default PlayerControls; 
