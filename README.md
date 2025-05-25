@@ -6,76 +6,68 @@ Welcome to **En-Zone**, your all-in-one entertainment hub! En-Zone offers an imm
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Next Steps](#next-steps)
 - [Contributing](#contributing)
 
 ---
 
 ## 🚀 **Features**
-### 🎵 **Music Library**
-- Browse, play, and download from a diverse collection of songs.
-- User-friendly interface to search and queue up your favorite tracks.
-  
-### 📚 **Online Comic Book Reader**
-- Explore a wide selection of comics.
-- Read comics page-by-page right on the website.
-
-### 🎥 **Manga Movie Database**
-- Find detailed information on your favorite manga movies.
-- IMDb-style reviews and summaries, tailored specifically for manga films.
+- 🎵 **Music Player**: Browse, play, and queue up songs with a modern React interface.
+- 📚 **Online Comic Book Reader**: (Planned) Explore and read comics online.
+- 🎥 **Manga Movie Database**: (Planned) Find info and reviews on manga movies.
 
 ---
 
 ## 🛠️ **Tech Stack**
-### **Frontend:**
-- **React.js**: Dynamic UI for a rich, interactive experience.
-- **HTML5, CSS3, JavaScript**: Standard technologies for structure, styling, and behavior of the web pages.
-
-### **Backend:**
-- **Node.js**: Handles server-side logic for efficient performance.
-- **Express.js**: Facilitates routing and APIs for smooth communication between frontend and backend.
-- **MongoDB**: Database for managing user data, comic collections, and the music library.
+- **Frontend:** React.js, React Router, HTML5, CSS3, JavaScript
+- **Backend:** (Planned) Node.js, Express.js, MongoDB
 
 ---
 
 ## 💻 **Installation**
-To set up and run En-Zone on your local machine:
-
-1. **Clone the repository:**
+1. **Navigate to the main app directory:**
    ```bash
-   git clone https://github.com/rohan-chandrashekar/En-Zone.git
+   cd my-app
    ```
-2. **Navigate to the project directory:**
-   ```bash
-   cd En-Zone
-   ```
-3. **Install dependencies for both frontend and backend:**
+2. **Install dependencies:**
    ```bash
    npm install
    ```
-4. **Set up environment variables:**
-   - Create a `.env` file in the root directory and include:
-     ```
-     MONGO_URI=yourMongoDBURI
-     PORT=5000
-     ```
-5. **Start the application:**
+3. **Start the frontend:**
    ```bash
    npm start
    ```
-   The application will be running on `http://localhost:3000`.
+   The app will run on `http://localhost:3000`.
 
 ---
 
 ## 📋 **Usage**
+- Use the navigation links to access Home, About, Contact, and the Music Player.
+- The Music Player supports play/pause, skip, and displays song details.
 
-- **Music Library**: Browse songs, create playlists, and enjoy unlimited playback with an intuitive interface.
-- **Comic Book Reader**: Select a comic from the library and read it page by page. Perfect for readers who enjoy serialized content.
-- **Manga Movie Database**: Search for detailed information about your favorite manga movies. Track ratings and reviews from other users.
+---
+
+## 🗂️ **Project Structure**
+- `my-app/` — Main React app (all features consolidated here)
+  - `src/Components/` — Music player components
+  - `src/` — Pages, styles, and app entry
+- `server/` — (Planned) Node.js/Express backend for APIs
+
+---
+
+## 🧩 **Next Steps**
+- Create a `package.json` in `my-app/` if not present, and install dependencies
+- Scaffold a `server/` directory for the backend (Node.js/Express/MongoDB)
+- Add API endpoints for music, comics, and movies
+- Add real assets and data
+- Expand comic and movie features
+- Add tests for components (sample test coming soon)
 
 ---
 
 ## 👨‍💻 **Developed By**
-**En-Zone** was developed as part of a student project by Rohan Chandrashekar, Rishikesh Sastri and Rithvik Grandhi for the Web Technologies course.
+Rohan Chandrashekar, Rishikesh Sastri, Rithvik Grandhi
 
 ---
 
